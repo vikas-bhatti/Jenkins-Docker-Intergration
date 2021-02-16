@@ -1,7 +1,7 @@
 version: "3.7"
 services:
   chaperoo-client:
-    image: vikasdochub/chaperoo-client
+    image: vikasdochub/chaperoo-client:v1
     build: .
     ports:
       - target: 80
